@@ -22,7 +22,7 @@ hooks:
         cmd:
           - git clone https://github.com/discourse/docker_manager.git
           - git clone https://github.com/werweisswas/discourse-plugin-tagger.git tagger
-          - cp tagger/db/migrate/* db/migrate/
+          - cp tagger/db/migrate/* ../db/migrate/
 ```
 
 and rebuild docker via
